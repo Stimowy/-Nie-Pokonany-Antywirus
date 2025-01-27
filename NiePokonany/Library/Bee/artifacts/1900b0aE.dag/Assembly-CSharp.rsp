@@ -426,12 +426,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/MenuAssets/Scripts/ASyncLoader.cs"
-"Assets/MenuAssets/Scripts/InteractableScreen.cs"
-"Assets/MenuAssets/Scripts/SaveAndLoadSystem.cs"
-"Assets/Movement/Scripts/groundChecker.cs"
-"Assets/Movement/Scripts/jumpTest.cs"
-"Assets/Movement/Scripts/springLimitation.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
