@@ -4,15 +4,15 @@ using UnityEngine.Timeline;
 
 public class playerMovement : MonoBehaviour
 {
-    [SerializeField] float movementSpeed;
+    [SerializeField] movementScript movementSpeed;
     [SerializeField] Transform cameraRotation;
     [SerializeField] Transform rotationDirection;
     [SerializeField] Transform characterModel;
     [SerializeField] Transform direction;
     private void FixedUpdate()
     {
-        transform.position += transform.right * Input.GetAxis("Vertical") / movementSpeed * -1;
-        transform.position += transform.forward * Input.GetAxis("Horizontal") / movementSpeed;
+        transform.position += transform.right * Input.GetAxis("Vertical") / movementSpeed.playerSpeed() * -1;
+        transform.position += transform.forward * Input.GetAxis("Horizontal") / movementSpeed.playerSpeed();
         
         float directionRotation;
         if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
