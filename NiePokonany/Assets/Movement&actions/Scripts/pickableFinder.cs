@@ -1,17 +1,33 @@
 using UnityEngine;
 using System.Collections;
+using System.Numerics;
+using Unity.Mathematics;
 
 public class pickableFinder : MonoBehaviour
 {
-
     GameObject pickedObject = null;
     Rigidbody pickedRigidbody = null;
     [SerializeField] GameObject pickedLocations;
     [SerializeField] Animator character;
     bool firstTime;
+    float startTimer;
+    float endTimer;
+    public bool throwPossible = false;
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            startTimer = Time.time;
+        }
+        if (Input.GetMouseButtonUp(1) && throwPossible)
+        {
+            endTimer = Time.time;
+            throwObj(Mathf.Clamp(endTimer - startTimer, 0f, 2f));
+        }
+    }
     private void FixedUpdate()
     {
-        
+
         if (firstTime && pickedObject != null)
         {
             pickedLocations.transform.position = pickedObject.transform.position;
@@ -24,12 +40,8 @@ public class pickableFinder : MonoBehaviour
             //---throwing
             if (Input.GetMouseButton(1))
             {
-                character.SetBool("throwing", true);
-                pickedRigidbody.AddForce(transform.forward * 40, ForceMode.Impulse);
-                pickedRigidbody.useGravity = true;
-                pickedObject = null;
-                pickedRigidbody = null;
-                StartCoroutine(countDown());
+                Debug.Log(Time.time - startTimer);
+                throwPossible = true;
             }
             //----
             firstTime = false;
@@ -37,6 +49,7 @@ public class pickableFinder : MonoBehaviour
         }
         else
         {
+            throwPossible = false;
             character.SetBool("holding", false);
             if (pickedObject != null) {
                 pickedRigidbody.useGravity = true;
@@ -46,15 +59,14 @@ public class pickableFinder : MonoBehaviour
             firstTime = true;
         }
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 5f))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(UnityEngine.Vector3.forward), out hit, 5f))
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward)*5, Color.red);
+            Debug.DrawRay(transform.position, transform.TransformDirection(UnityEngine.Vector3.forward) * 5, Color.red);
             if (hit.collider.CompareTag("pickable") && !Input.GetMouseButton(0))
             {
-                Debug.Log("niga");
                 pickedObject = hit.collider.gameObject;
                 pickedRigidbody = hit.rigidbody;
-                firstTime =true;
+                firstTime = true;
             }
         }
 
@@ -64,5 +76,12 @@ public class pickableFinder : MonoBehaviour
         yield return new WaitForSeconds(.8f);
         character.SetBool("throwing", false);
     }
-
+    private void throwObj(float strength){
+        character.SetBool("throwing", true);
+        pickedRigidbody.AddForce(transform.forward * strength*20, ForceMode.Impulse);
+        pickedRigidbody.useGravity = true;
+        pickedObject = null;
+        pickedRigidbody = null;
+        StartCoroutine(countDown());
+    }
 }
