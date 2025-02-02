@@ -1,16 +1,21 @@
 using UnityEngine;
+using System.Collections;
 
 public class pickableFinder : MonoBehaviour
 {
+
     GameObject pickedObject = null;
     Rigidbody pickedRigidbody = null;
     [SerializeField] GameObject pickedLocations;
+    [SerializeField] Animator character;
     bool firstTime;
     private void FixedUpdate()
     {
+        
         if (firstTime && pickedObject != null)
         {
             pickedLocations.transform.position = pickedObject.transform.position;
+            character.SetBool("holding", true);
         }
         if (Input.GetMouseButton(0) && pickedObject != null)
         {
@@ -19,11 +24,12 @@ public class pickableFinder : MonoBehaviour
             //---throwing
             if (Input.GetMouseButton(1))
             {
-                Debug.Log("niga");
+                character.SetBool("throwing", true);
                 pickedRigidbody.AddForce(transform.forward * 40, ForceMode.Impulse);
                 pickedRigidbody.useGravity = true;
                 pickedObject = null;
                 pickedRigidbody = null;
+                StartCoroutine(countDown());
             }
             //----
             firstTime = false;
@@ -31,6 +37,7 @@ public class pickableFinder : MonoBehaviour
         }
         else
         {
+            character.SetBool("holding", false);
             if (pickedObject != null) {
                 pickedRigidbody.useGravity = true;
             }
@@ -52,4 +59,10 @@ public class pickableFinder : MonoBehaviour
         }
 
     }
+    private IEnumerator countDown()
+    {
+        yield return new WaitForSeconds(.8f);
+        character.SetBool("throwing", false);
+    }
+
 }
