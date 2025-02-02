@@ -431,6 +431,7 @@
 "Assets/MenuAssets/Scripts/SaveAndLoadSystem.cs"
 "Assets/Movement&actions/Scripts/cameraMovement.cs"
 "Assets/Movement&actions/Scripts/groundChecker.cs"
+"Assets/Movement&actions/Scripts/heldItemMovementmem.cs"
 "Assets/Movement&actions/Scripts/jumping.cs"
 "Assets/Movement&actions/Scripts/movementScript.cs"
 "Assets/Movement&actions/Scripts/pickableFinder.cs"
