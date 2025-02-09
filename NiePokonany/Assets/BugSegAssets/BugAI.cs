@@ -10,9 +10,29 @@ public class BugAI : MonoBehaviour
     private bool offMeshLinkInProgress = false;
     private bool alive = true;
     private string state = "idle";
+    private float timeToPickingNew = 0f;
+    [SerializeField] private GameObject particle;
+    [SerializeField] private pickableFinder pickableFinderScript;
     private void Awake()
     {
         bugNavAgent = GetComponent<NavMeshAgent>();
+        pickableFinderScript = GameObject.Find("rayCast").GetComponent<pickableFinder>();
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "pickable")
+        {
+            //Debug.Log(collision.gameObject.name);
+            if (pickableFinderScript != null)
+            {
+                if (pickableFinderScript.timeOfHolding >= 1.2f)
+                {
+                    Destroy(collision.gameObject);
+                    Instantiate(particle,this.gameObject.transform.position,this.gameObject.transform.rotation);
+                    Destroy(this.gameObject);
+                }
+            }
+        }
     }
     private void Update()
     {
@@ -20,9 +40,9 @@ public class BugAI : MonoBehaviour
         {
             if(state == "idle")
             {
-                Vector3 randomPos = Random.insideUnitSphere * 20f;
+                Vector3 randomPos = Random.insideUnitSphere * 40f;
                 NavMeshHit navHit;
-                NavMesh.SamplePosition(transform.position + randomPos, out navHit, 20f, NavMesh.AllAreas);
+                NavMesh.SamplePosition(transform.position + randomPos, out navHit, 40f, NavMesh.AllAreas);
                 MoveTo(navHit);
                 state = "walk";
             }
@@ -32,6 +52,14 @@ public class BugAI : MonoBehaviour
                 {
                     state = "idle";
                 }
+                timeToPickingNew += Time.deltaTime;
+                if (timeToPickingNew >= 10f)
+                {
+                    state = "idle";
+                    timeToPickingNew = 0f;
+                }
+                timeToPickingNew += Time.deltaTime;
+                //Debug.Log(timeToPickingNew);
             }
 
             if (!bugNavAgent.pathPending && !bugNavAgent.isOnOffMeshLink && (bugNavAgent.remainingDistance <= bugNavAgent.stoppingDistance))
@@ -43,6 +71,10 @@ public class BugAI : MonoBehaviour
                 offMeshLinkInProgress = true;
                 StartCoroutine(FollowOffMeshLinkLerp());
             }
+        }
+        else
+        {
+            
         }
     }
     IEnumerator FollowOffMeshLinkLerp()

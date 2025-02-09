@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 7505249821716575508}
   - component: {fileID: 2457795714243638775}
   - component: {fileID: 3854950622340028612}
+  - component: {fileID: -8256954109467759423}
   m_Layer: 0
   m_Name: bug
   m_TagString: Untagged
@@ -369,6 +370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1541d87a033ce46449754284d1e779a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particle: {fileID: 6696980149931068718, guid: 8066e82d7d9a3d3418a7b72271662ec9, type: 3}
+  pickableFinderScript: {fileID: 0}
 --- !u!195 &3854950622340028612
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -391,6 +394,27 @@ NavMeshAgent:
   m_BaseOffset: 0.75
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &-8256954109467759423
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3285973255713765364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 2, z: 4}
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!1 &3685182910924954047
 GameObject:
   m_ObjectHideFlags: 0

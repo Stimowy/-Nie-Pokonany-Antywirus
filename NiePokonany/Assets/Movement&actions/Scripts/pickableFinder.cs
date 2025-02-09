@@ -13,6 +13,7 @@ public class pickableFinder : MonoBehaviour
     float startTimer;
     float endTimer;
     public bool throwPossible = false;
+    public float timeOfHolding = 0f;
     private void Update()
     {
         if (Input.GetMouseButtonDown(1))
@@ -22,7 +23,8 @@ public class pickableFinder : MonoBehaviour
         if (Input.GetMouseButtonUp(1) && throwPossible)
         {
             endTimer = Time.time;
-            throwObj(Mathf.Clamp(endTimer - startTimer, 0f, 2f));
+            timeOfHolding = Mathf.Clamp(endTimer - startTimer, 0f, 2f);
+            throwObj(timeOfHolding);
         }
     }
     private void FixedUpdate()
@@ -40,7 +42,7 @@ public class pickableFinder : MonoBehaviour
             //---throwing
             if (Input.GetMouseButton(1))
             {
-                Debug.Log(Time.time - startTimer);
+                //Debug.Log(Time.time - startTimer);
                 throwPossible = true;
             }
             //----
