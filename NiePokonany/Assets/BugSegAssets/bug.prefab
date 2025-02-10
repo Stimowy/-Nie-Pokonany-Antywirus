@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: -8256954109467759423}
   m_Layer: 0
   m_Name: bug
-  m_TagString: Untagged
+  m_TagString: Bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

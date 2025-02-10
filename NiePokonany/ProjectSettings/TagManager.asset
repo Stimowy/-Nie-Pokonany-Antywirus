@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ground
   - pickable
+  - Bug
+  - DN
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ public class HolesManager : MonoBehaviour
     public GameObject[] holes;
     private int amountOfBugs = 0;
     private int maxAmountOfBugs = 0;
+    private int dN = 0;
     private float timer = 7f;
     private void Awake()
     {
@@ -12,7 +13,7 @@ public class HolesManager : MonoBehaviour
     }
     private void Update()
     {
-        if(amountOfBugs < maxAmountOfBugs)
+        if(amountOfBugs < maxAmountOfBugs - dN)
         {
             if(timer <= 0f)
             {
@@ -20,6 +21,9 @@ public class HolesManager : MonoBehaviour
             }
             timer -= Time.deltaTime;
         }
+
+        amountOfBugs = GameObject.FindGameObjectsWithTag("Bug").Length;
+        dN = GameObject.FindGameObjectsWithTag("DN").Length;
     }
     private void BugSpawn()
     {
@@ -40,7 +44,6 @@ public class HolesManager : MonoBehaviour
                 if (holes[randomSpot] != null)
                 {
                     holes[randomSpot].gameObject.GetComponent<HoleScript>().Spawn();
-                    amountOfBugs++;
                     timer = 7f;
                     break;
                 }
