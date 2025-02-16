@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638711576284261694
-    m_Hash: 1241599420
+      ticks: 638752337086157604
+    m_Hash: 2990903775
   m_LockFileStatus:
     m_FilePath: X:/ProjektStimowego/-Nie-Pokonany-Antywirus/NiePokonany/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638711576284261694
-    m_Hash: 44566616
+      ticks: 638752337091107938
+    m_Hash: 2570459813
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -229,9 +229,11 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     compatible:
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     recommended: 2.5.2
     deprecated: []
   dependencies: []
