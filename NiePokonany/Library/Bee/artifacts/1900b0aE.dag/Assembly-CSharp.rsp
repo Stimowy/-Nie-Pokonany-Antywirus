@@ -372,6 +372,7 @@
 -r:"X:/6000.0.28f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"X:/6000.0.28f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -434,7 +435,9 @@
 "Assets/MazeSegAssets/CMLinker.cs"
 "Assets/MazeSegAssets/IsVisibleByPlayer.cs"
 "Assets/MenuAssets/Scripts/ASyncLoader.cs"
+"Assets/MenuAssets/Scripts/BlackRemover.cs"
 "Assets/MenuAssets/Scripts/InteractableScreen.cs"
+"Assets/MenuAssets/Scripts/MenuManager.cs"
 "Assets/MenuAssets/Scripts/SaveAndLoadSystem.cs"
 "Assets/Movement&actions/Scripts/cameraMovement.cs"
 "Assets/Movement&actions/Scripts/groundChecker.cs"
@@ -444,6 +447,7 @@
 "Assets/Movement&actions/Scripts/pickableFinder.cs"
 "Assets/Movement&actions/Scripts/playerMovement.cs"
 "Assets/Movement&actions/Scripts/springLimitation.cs"
+"Assets/Scenes/EndingManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
