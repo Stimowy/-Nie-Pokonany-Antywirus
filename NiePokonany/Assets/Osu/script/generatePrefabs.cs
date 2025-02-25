@@ -144,30 +144,23 @@ public class generatePrefabs : MonoBehaviour
     // ============= Zarz¹dzanie paskami =============
     public void addDamage(int z)
     {
-        if (isDamage)
+        if (isDamage && damage > 0)
         {
-            if(damage > 0)
-            {
-                isAnimTimer = true;
-                Instantiate(bombDamage, new Vector3(0f, 0f, 0f), bombDamage.transform.rotation);
-                damage -= 25;
-                isGenerate = false;
-                anim.SetBool("isThrow", false);
-                if (damage <= 10)
-                {
-                    isDamage = false;
-                }
-            }
+            isAnimTimer = true;
+            Instantiate(bombDamage, new Vector3(0f, 0f, 0f), bombDamage.transform.rotation);
+            SubtractDamage();
+            isGenerate = false;
+            anim.SetBool("isThrow", false);
         }
         else if(points.Points() >= 0)
         {
             if (z >= 1 && z <= 2)
             {
-                damage += z;
+                AddDamage(z);
             }
             else
             {
-                damage += 1;
+                AddDamage(z);
             }
         }
 
@@ -183,6 +176,41 @@ public class generatePrefabs : MonoBehaviour
         health -= d;
     }
 
+    public void AddDamage(int z)
+    {
+        if(damage + z > 50)
+        {
+            damage = 50;
+        }
+        else
+        {
+            damage += z;
+        }
+    }
+
+    public void RemoveDamage(int z)
+    {
+        if(damage - z < 0 && (z <= 3 && z >= 1))
+        {
+            damage = 0;
+        }
+        else
+        {
+            damage -= z;
+        }
+    }
+
+    public void SubtractDamage()
+    {
+        if(isDamage && damage > 0)
+        {
+            damage -= 25;
+        }
+        if (damage <= 10)
+        {
+            isDamage = false;
+        }
+    }
 
     //koniec gry
     private void end()

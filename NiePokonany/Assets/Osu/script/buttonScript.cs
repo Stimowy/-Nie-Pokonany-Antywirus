@@ -50,6 +50,12 @@ public class buttonScript : MonoBehaviour
         else if(good.IsTrigger() && good.IsName() == 2)
         {
             points.DiviseScore();
+            generate.RemoveDamage(2);
+        }
+        else
+        {
+            generate.RemoveDamage(1);
+            generate.SubtractDamage();
         }
     }
 
