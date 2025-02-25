@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 107
+  controlID: 98
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -544,7 +544,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Osu/model
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -554,16 +554,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Osu/model
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\slawo\Documents\GitHub\-Nie-Pokonany-Antywirus\NiePokonany
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 74.80002}
-    m_SelectedIDs: e4df0000
-    m_LastClickedID: 57316
-    m_ExpandedIDs: 0000000008bc000036de000038de000072df000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 130.80002}
+    m_SelectedIDs: 98a60000
+    m_LastClickedID: 42648
+    m_ExpandedIDs: 0000000094a6000096a6000098a6000090a8000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000008bc000036de000038de0000
+    m_ExpandedIDs: 0000000094a6000096a6000098a60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -740,7 +740,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4657ffff
+      m_ExpandedIDs: f0f6ffffe4faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1260,9 +1260,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 60.51842, y: 104.026985, z: -249.25952}
+    m_Target: {x: -6.810658, y: 7.404777, z: 3.9367476}
     speed: 2
-    m_Value: {x: 60.51842, y: 104.026985, z: -249.25952}
+    m_Value: {x: -6.810658, y: 7.404777, z: 3.9367476}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1308,9 +1308,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.002233561, y: -0.36459386, z: 0.0008777431, w: -0.931177}
+    m_Target: {x: -0.12977724, y: -0.5936858, z: 0.09776108, w: -0.7881417}
     speed: 2
-    m_Value: {x: -0.002233561, y: -0.36459386, z: 0.0008777432, w: -0.931177}
+    m_Value: {x: -0.12977532, y: -0.59367704, z: 0.097759634, w: -0.7881301}
   m_Size:
     m_Target: 9.028282
     speed: 2
