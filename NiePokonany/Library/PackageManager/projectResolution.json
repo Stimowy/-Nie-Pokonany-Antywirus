@@ -1,0 +1,669 @@
+{
+  "context": {
+<<<<<<< HEAD
+    "projectPath": "C:/unity/projekty/-Nie-Pokonany-Antywirus/NiePokonany/Packages",
+    "unityVersion": "6000.0.28f1"
+  },
+  "inputs": [
+    "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Packages\\manifest.json",
+    "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Packages\\packages-lock.json"
+=======
+    "projectPath": "X:/ProjektStimowego/-Nie-Pokonany-Antywirus/NiePokonany/Packages",
+    "unityVersion": "6000.0.28f1"
+  },
+  "inputs": [
+    "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Packages\\manifest.json",
+    "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Packages\\packages-lock.json"
+>>>>>>> maze
+  ],
+  "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.2d.sprite",
+      "fingerprint": "0e70656ef5df5c7161c8cfc6f24ab0dde0dc637e",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.ai.navigation@2.0.4": {
+      "name": "com.unity.ai.navigation",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ai.navigation",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ai.navigation",
+>>>>>>> maze
+      "fingerprint": "3f89ad87253dcaae2d0bb583bd5ef4c4f2c17764",
+      "editorCompatibility": "2023.2.0a18",
+      "version": "2.0.4",
+      "source": "registry"
+    },
+    "com.unity.collab-proxy@2.5.2": {
+      "name": "com.unity.collab-proxy",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.collab-proxy",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.collab-proxy",
+>>>>>>> maze
+      "fingerprint": "da7e55b87e08569f31766e7cabc37bc033c9c7f9",
+      "editorCompatibility": "2020.3.48f1",
+      "version": "2.5.2",
+      "source": "registry"
+    },
+    "com.unity.ide.rider@3.0.31": {
+      "name": "com.unity.ide.rider",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ide.rider",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ide.rider",
+>>>>>>> maze
+      "fingerprint": "7921be93db40ec070fcb01ed82d1c3df1bbdddcd",
+      "editorCompatibility": "2019.2.6f1",
+      "version": "3.0.31",
+      "source": "registry"
+    },
+    "com.unity.ide.visualstudio@2.0.22": {
+      "name": "com.unity.ide.visualstudio",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ide.visualstudio",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ide.visualstudio",
+>>>>>>> maze
+      "fingerprint": "8140e851d83e922ca2021b04a89519de94ebe38c",
+      "editorCompatibility": "2019.4.25f1",
+      "version": "2.0.22",
+      "source": "registry"
+    },
+    "com.unity.inputsystem@1.11.2": {
+      "name": "com.unity.inputsystem",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.inputsystem",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.inputsystem",
+>>>>>>> maze
+      "fingerprint": "3c4a97c3950fef77960981e0fe90613de6e512ee",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.11.2",
+      "source": "registry"
+    },
+    "com.unity.multiplayer.center@1.0.0": {
+      "name": "com.unity.multiplayer.center",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.multiplayer.center",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.multiplayer.center",
+>>>>>>> maze
+      "fingerprint": "f502d8ac613fa076192423e73892fbd89eb4049b",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.render-pipelines.universal@17.0.3": {
+      "name": "com.unity.render-pipelines.universal",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.render-pipelines.universal",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.render-pipelines.universal",
+>>>>>>> maze
+      "fingerprint": "dc583fdd52091e192bc17d0b1aa0a8a6f37abd56",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.test-framework@1.4.5": {
+      "name": "com.unity.test-framework",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.test-framework",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.test-framework",
+>>>>>>> maze
+      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
+      "editorCompatibility": "2019.4.0a10",
+      "version": "1.4.5",
+      "source": "registry"
+    },
+    "com.unity.timeline@1.8.7": {
+      "name": "com.unity.timeline",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.timeline",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.timeline",
+>>>>>>> maze
+      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "1.8.7",
+      "source": "registry"
+    },
+    "com.unity.toolchain.win-x86_64-linux-x86_64@2.0.10": {
+      "name": "com.unity.toolchain.win-x86_64-linux-x86_64",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.toolchain.win-x86_64-linux-x86_64",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.toolchain.win-x86_64-linux-x86_64",
+>>>>>>> maze
+      "fingerprint": "426618737602d0ff76e85db678b73b56aa2e891a",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry"
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ugui",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ugui",
+>>>>>>> maze
+      "fingerprint": "e6653db8377f18d2d6df3466ab35fb2d87c9c264",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin"
+    },
+    "com.unity.visualscripting@1.9.5": {
+      "name": "com.unity.visualscripting",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.visualscripting",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.visualscripting",
+>>>>>>> maze
+      "fingerprint": "1b53f46e931bea668e53f1feb0ac9138170c9455",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.9.5",
+      "source": "registry"
+    },
+    "com.unity.modules.accessibility@1.0.0": {
+      "name": "com.unity.modules.accessibility",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.accessibility",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.accessibility",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ai@1.0.0": {
+      "name": "com.unity.modules.ai",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.ai",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.ai",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.androidjni@1.0.0": {
+      "name": "com.unity.modules.androidjni",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.androidjni",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.androidjni",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.animation",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.animation",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.assetbundle@1.0.0": {
+      "name": "com.unity.modules.assetbundle",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.assetbundle",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.assetbundle",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.audio",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.audio",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.cloth@1.0.0": {
+      "name": "com.unity.modules.cloth",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.cloth",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.cloth",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.director",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.director",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.imageconversion",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.imageconversion",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.imgui",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.imgui",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.particlesystem",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.particlesystem",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.physics",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.physics",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.physics2d",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.physics2d",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.screencapture",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.screencapture",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrain@1.0.0": {
+      "name": "com.unity.modules.terrain",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.terrain",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.terrain",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.terrainphysics@1.0.0": {
+      "name": "com.unity.modules.terrainphysics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.tilemap@1.0.0": {
+      "name": "com.unity.modules.tilemap",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.tilemap",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.tilemap",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.ui",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.ui",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.uielements",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.uielements",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.umbra@1.0.0": {
+      "name": "com.unity.modules.umbra",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.umbra",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.umbra",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unityanalytics@1.0.0": {
+      "name": "com.unity.modules.unityanalytics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequest@1.0.0": {
+      "name": "com.unity.modules.unitywebrequest",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestaudio@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestaudio",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequesttexture@1.0.0": {
+      "name": "com.unity.modules.unitywebrequesttexture",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.unitywebrequestwww@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestwww",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vehicles@1.0.0": {
+      "name": "com.unity.modules.vehicles",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.vehicles",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.vehicles",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.video@1.0.0": {
+      "name": "com.unity.modules.video",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.video",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.video",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.vr@1.0.0": {
+      "name": "com.unity.modules.vr",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.vr",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.vr",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.wind@1.0.0": {
+      "name": "com.unity.modules.wind",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.wind",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.wind",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.xr@1.0.0": {
+      "name": "com.unity.modules.xr",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.xr",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.xr",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.subsystems",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.subsystems",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+>>>>>>> maze
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.sysroot@2.0.10": {
+      "name": "com.unity.sysroot",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.sysroot",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.sysroot",
+>>>>>>> maze
+      "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry"
+    },
+    "com.unity.sysroot.linux-x86_64@2.0.9": {
+      "name": "com.unity.sysroot.linux-x86_64",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.sysroot.linux-x86_64",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.sysroot.linux-x86_64",
+>>>>>>> maze
+      "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.9",
+      "source": "registry"
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ext.nunit",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.ext.nunit",
+>>>>>>> maze
+      "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "registry"
+    },
+    "com.unity.render-pipelines.core@17.0.3": {
+      "name": "com.unity.render-pipelines.core",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.render-pipelines.core",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.render-pipelines.core",
+>>>>>>> maze
+      "fingerprint": "c6c30ab055d7d762f0b35abf019282abd487b6f7",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.shadergraph@17.0.3": {
+      "name": "com.unity.shadergraph",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.shadergraph",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.shadergraph",
+>>>>>>> maze
+      "fingerprint": "e6e0df3c9e43d268733e3882298a59923bdf76d3",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.render-pipelines.universal-config@17.0.3": {
+      "name": "com.unity.render-pipelines.universal-config",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.render-pipelines.universal-config",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.render-pipelines.universal-config",
+>>>>>>> maze
+      "fingerprint": "fa63c96d3e1af317d84d171cd6c0e0658ab159df",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.searcher@4.9.2": {
+      "name": "com.unity.searcher",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.searcher",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.searcher",
+>>>>>>> maze
+      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.2",
+      "source": "registry"
+    },
+    "com.unity.burst@1.8.18": {
+      "name": "com.unity.burst",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.burst",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.burst",
+>>>>>>> maze
+      "fingerprint": "616862665d8c8ffe643d505aebb5de2ee73b0ab0",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "1.8.18",
+      "source": "registry"
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.mathematics",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.mathematics",
+>>>>>>> maze
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
+      "source": "registry"
+    },
+    "com.unity.collections@2.5.1": {
+      "name": "com.unity.collections",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.collections",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.collections",
+>>>>>>> maze
+      "fingerprint": "56bff8827a7ef6d44fcee4f36e558a74da89c1a0",
+      "editorCompatibility": "2022.3.11f1",
+      "version": "2.5.1",
+      "source": "registry"
+    },
+    "com.unity.rendering.light-transport@1.0.1": {
+      "name": "com.unity.rendering.light-transport",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.rendering.light-transport",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.rendering.light-transport",
+>>>>>>> maze
+      "fingerprint": "307bc27a498fc9cd409bbd426c85d8dc7f140bc1",
+      "editorCompatibility": "2023.3.0b1",
+      "version": "1.0.1",
+      "source": "builtin"
+    },
+    "com.unity.nuget.mono-cecil@1.11.4": {
+      "name": "com.unity.nuget.mono-cecil",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.nuget.mono-cecil",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.nuget.mono-cecil",
+>>>>>>> maze
+      "fingerprint": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "1.11.4",
+      "source": "registry"
+    },
+    "com.unity.test-framework.performance@3.0.3": {
+      "name": "com.unity.test-framework.performance",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\unity\\projekty\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.test-framework.performance",
+=======
+      "resolvedPath": "X:\\ProjektStimowego\\-Nie-Pokonany-Antywirus\\NiePokonany\\Library\\PackageCache\\com.unity.test-framework.performance",
+>>>>>>> maze
+      "fingerprint": "fb0dc592af8b524f1a06c50d7caf95552f1bcd2f",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "3.0.3",
+      "source": "registry"
+    }
+  }
+}

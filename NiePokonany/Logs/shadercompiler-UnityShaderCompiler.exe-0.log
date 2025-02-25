@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+Base path: 'C:/unity/6000.0.28f1/Editor/Data', plugins path 'C:/unity/6000.0.28f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: shutdown
+=======
+Base path: 'X:/6000.0.28f1/Editor/Data', plugins path 'X:/6000.0.28f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+>>>>>>> maze

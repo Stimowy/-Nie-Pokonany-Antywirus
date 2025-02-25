@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+C:\unity\projekty\-Nie-Pokonany-Antywirus\NiePokonany
+=======
+X:\ProjektStimowego\-Nie-Pokonany-Antywirus\NiePokonany
+>>>>>>> maze

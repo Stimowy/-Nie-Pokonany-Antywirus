@@ -1,0 +1,9 @@
+sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/osuPrinter.unity
+=======
+- path: Assets/Scenes/Ending.unity
+>>>>>>> maze
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
