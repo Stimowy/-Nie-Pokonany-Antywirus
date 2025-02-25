@@ -8,6 +8,8 @@ TagManager:
   - pickable
   - Bug
   - DN
+  - file
+  - bomb
   layers:
   - Default
   - TransparentFX
