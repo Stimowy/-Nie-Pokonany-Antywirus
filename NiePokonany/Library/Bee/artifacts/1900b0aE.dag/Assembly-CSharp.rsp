@@ -457,6 +457,9 @@
 "Assets/Osu/script/movePrefab.cs"
 "Assets/Osu/script/pointCounter.cs"
 "Assets/Osu/script/triggerOn.cs"
+"Assets/Rocks/DBR.cs"
+"Assets/Rocks/RockFall.cs"
+"Assets/Rocks/RockSettings.cs"
 "Assets/Scenes/EndingManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
