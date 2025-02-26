@@ -7,6 +7,8 @@ TagManager:
   - ground
   - pickable
   - CM
+  - file
+  - bomb
   layers:
   - Default
   - TransparentFX
@@ -37,7 +39,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - ground
   - stone
   - springBone
   m_SortingLayers:

@@ -9,10 +9,11 @@ public class playerMovement : MonoBehaviour
     [SerializeField] Transform rotationDirection;
     [SerializeField] Transform characterModel;
     [SerializeField] Transform direction;
+    [SerializeField] colide coliding;
     private void FixedUpdate()
     {
-        transform.position += transform.right * Input.GetAxis("Vertical") / movementSpeed.playerSpeed() * -1;
-        transform.position += transform.forward * Input.GetAxis("Horizontal") / movementSpeed.playerSpeed();
+        transform.position += transform.right * Input.GetAxis("Vertical") / movementSpeed.playerSpeed() * -1 * coliding.coliding();
+        transform.position += transform.forward * Input.GetAxis("Horizontal") / movementSpeed.playerSpeed() * coliding.coliding();
         
         float directionRotation;
         if(Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)

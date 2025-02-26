@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 337e7dd417d5cb744891d872aa296538, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6fa633f8c9764dd42a122c79b5d965bf, type: 2}
     - target: {fileID: 919132149155446097, guid: 337e7dd417d5cb744891d872aa296538, type: 3}
       propertyPath: m_Name
       value: bomb
@@ -179,8 +183,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  animClip:
-  - {fileID: 7400000, guid: 465dd63eca09d2c4a8c1e8ddfefcb466, type: 2}
-  - {fileID: 7400000, guid: fd9aa57fd1993d8459efa935c7591517, type: 2}
-  - {fileID: 7400000, guid: f8e96f3f4a17a0444bd4d03694df7fb4, type: 2}
-  - {fileID: 7400000, guid: 203eb19544c626d4593800cf0171a3d1, type: 2}
