@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class colide : MonoBehaviour
 {
-    public bool colid = false;
+    private bool colid = false;
+
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("jajco");
         colid = true;
     }
     private void OnTriggerExit(Collider other)

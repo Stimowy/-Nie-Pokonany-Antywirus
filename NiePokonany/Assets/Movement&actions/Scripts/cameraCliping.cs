@@ -18,7 +18,6 @@ public class cameraCliping : MonoBehaviour
         Debug.DrawRay(starting, transform.right * len, Color.red);
         Ray ray = new Ray(starting, transform.right * len);
         Physics.Raycast(ray, out hit, len);
-        Debug.Log(hit.collider.name);
     }
     public float distance()
     {
