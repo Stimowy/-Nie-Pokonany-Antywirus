@@ -5,16 +5,20 @@ public class CameramanAI : MonoBehaviour
 {
     public GameObject eye;
     public GameObject player;
+    public AudioSource audioS;
     private NavMeshAgent cameramanNav;
     private bool alive = true;
     [SerializeField] private string state = "sleep";
     private Animator anim;
     private CMLinker cmL;
+    private ASyncLoader loader;
     private void Awake()
     {
-        cameramanNav = GetComponent<NavMeshAgent>();
+        cameramanNav = this.gameObject.GetComponent<NavMeshAgent>();
         anim = cameramanNav.gameObject.GetComponent<Animator>();
-        cmL = gameObject.GetComponentInChildren<CMLinker>();
+        cmL = this.gameObject.GetComponentInChildren<CMLinker>();
+        loader = GameObject.Find("ASyncManager").GetComponent<ASyncLoader>();
+        audioS = this.gameObject.GetComponent<AudioSource>();
     }
     private void Update()
     {
@@ -99,7 +103,15 @@ public class CameramanAI : MonoBehaviour
             if(state == "kill")
             {
                 Debug.Log("Death");
+                loader.LoadLevelStraight("Maze");
             }
+        }
+    }
+    public void Step()
+    {
+        if (!audioS.isPlaying)
+        {
+            audioS.Play();
         }
     }
 }

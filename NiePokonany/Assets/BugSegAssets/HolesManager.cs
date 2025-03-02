@@ -3,16 +3,19 @@ using UnityEngine;
 public class HolesManager : MonoBehaviour
 {
     public GameObject[] holes;
-    private int amountOfBugs = 0;
-    private int maxAmountOfBugs = 0;
-    private float timer = 7f;
+    public int amountOfNulls = 0;
+    public ASyncLoader loader;
+    public int amountOfBugs = 0;
+    public int maxAmountOfBugs = 0;
+    public float timer = 7f;
     private void Awake()
     {
         maxAmountOfBugs = holes.Length;
     }
     private void Update()
     {
-        if(amountOfBugs < maxAmountOfBugs)
+        maxAmountOfBugs = holes.Length - amountOfNulls;
+        if (amountOfBugs < maxAmountOfBugs)
         {
             if(timer <= 0f)
             {
@@ -20,11 +23,14 @@ public class HolesManager : MonoBehaviour
             }
             timer -= Time.deltaTime;
         }
+        if(maxAmountOfBugs <= 0)
+        {
+            loader.LoadLevelStraight("Maze");
+        }
     }
     private void BugSpawn()
     {
         int randomSpot = 0;
-        int amountOfNulls = 0;
         for (int i = 0; i < holes.Length; i++)
         {
             if (holes[i] == null)
@@ -32,7 +38,7 @@ public class HolesManager : MonoBehaviour
                 amountOfNulls++;
             }
         }
-        if(amountOfNulls < holes.Length)
+        if (amountOfNulls < holes.Length)
         {
             while (true)
             {

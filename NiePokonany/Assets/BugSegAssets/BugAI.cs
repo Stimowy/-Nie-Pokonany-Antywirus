@@ -13,10 +13,12 @@ public class BugAI : MonoBehaviour
     private float timeToPickingNew = 0f;
     [SerializeField] private GameObject particle;
     [SerializeField] private pickableFinder pickableFinderScript;
+    [SerializeField] private HolesManager holesManager;
     private void Awake()
     {
         bugNavAgent = GetComponent<NavMeshAgent>();
         pickableFinderScript = GameObject.Find("rayCast").GetComponent<pickableFinder>();
+        holesManager = GameObject.Find("level1").GetComponent<HolesManager>();
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -28,6 +30,7 @@ public class BugAI : MonoBehaviour
                 if (pickableFinderScript.timeOfHolding >= 1.2f)
                 {
                     Destroy(collision.gameObject);
+                    holesManager.amountOfBugs--;
                     Instantiate(particle,this.gameObject.transform.position,this.gameObject.transform.rotation);
                     Destroy(this.gameObject);
                 }

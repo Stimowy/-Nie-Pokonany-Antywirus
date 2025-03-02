@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maze.unity
     guid: 66cab826f267d3144892007c1f502023
+  - enabled: 1
+    path: Assets/Scenes/osuPrinter.unity
+    guid: 0585a4c1b18886445a2c4c7d76c1457f
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 2dd78e55a55fdd248841c3c1f5aa89f8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

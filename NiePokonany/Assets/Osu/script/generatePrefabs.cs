@@ -28,6 +28,8 @@ public class generatePrefabs : MonoBehaviour
     [SerializeField] private Image healthbar;
     [SerializeField] private Image damagebar;
 
+    public ASyncLoader loader;
+
     private void Update()
     {
         healthbar.fillAmount = health / 100;
@@ -218,5 +220,6 @@ public class generatePrefabs : MonoBehaviour
         isGenerate = false;
         anim.SetBool("isThrow", false);
         anim.SetBool("isHit", false);
+        loader.LoadLevelStraight("Ending");
     }
 }
