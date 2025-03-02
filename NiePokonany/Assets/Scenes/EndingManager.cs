@@ -20,10 +20,12 @@ public class EndingManager : MonoBehaviour
             {
                 endGameChat.SetActive(false);
                 choose.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 bb = true;
             }
         }
-        if(goodEnding.GetComponent<VideoPlayer>().frame == 177)
+        if (goodEnding.GetComponent<VideoPlayer>().frame == 177)
         {
             goodEnding.SetActive(false);
             lesson.SetActive(true);

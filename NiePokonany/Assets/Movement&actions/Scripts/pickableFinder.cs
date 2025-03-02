@@ -2,9 +2,12 @@ using UnityEngine;
 using System.Collections;
 using System.Numerics;
 using Unity.Mathematics;
+using UnityEngine.UI;
 
 public class pickableFinder : MonoBehaviour
 {
+    [SerializeField] GameObject ui;
+    [SerializeField] Slider slider;
     GameObject pickedObject = null;
     Rigidbody pickedRigidbody = null;
     [SerializeField] GameObject pickedLocations;
@@ -18,12 +21,17 @@ public class pickableFinder : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1))
         {
+            ui.SetActive(true);
             startTimer = Time.time;
         }
+        slider.value = Time.time - startTimer;
+
         if (Input.GetMouseButtonUp(1) && throwPossible)
         {
+            ui.SetActive(false);
             endTimer = Time.time;
             timeOfHolding = Mathf.Clamp(endTimer - startTimer, 0f, 2f);
+            
             throwObj(timeOfHolding);
         }
     }
